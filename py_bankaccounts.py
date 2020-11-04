@@ -13,7 +13,7 @@ class BankAccount:
             self.account_balance -= (amount + 5)
         return self
     def display_account_info(self):
-        print(self.account_balance)
+        print(f"balance: {self.account_balance}")
         return self
     def yield_interest(self):
         if self.account_balance > 0:
